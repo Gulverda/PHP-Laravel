@@ -15,7 +15,7 @@ class DateTime extends Command
      *
      * @var string
      */
-    protected $signature = 'app:date-time {days}';
+    protected $signature = 'app:date-time';
 
     /**
      * The console command description.
@@ -42,7 +42,7 @@ class DateTime extends Command
             Storage::append('date-time.log', $now);
             
             // Wait for 10 min before logging again
-            sleep(600);
+            sleep(2);
         }
     }
 }
