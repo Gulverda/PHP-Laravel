@@ -142,20 +142,6 @@ class PlayHangman extends Command
     {
         $hangmanStates = [
             "
-              
-              
-              
-              
-              
-            ========",
-            "
-              |
-              |
-              |
-              |
-              |
-            ========",
-            "
               -----
               |   |
               |
